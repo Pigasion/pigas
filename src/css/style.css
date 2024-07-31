@@ -1,0 +1,301 @@
+/* код для index.html */
+
+
+body {
+  background-image: url('../img/maingr.jpg');
+  user-select: none;
+}
+footer {
+  height: 85px;
+  background-color: wheat;
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+}
+footer img {
+  width: 45px;
+  height: 37px;
+  padding: 13px 7px 7px 7px;
+}
+footer p {
+  color: #153d3c;
+  margin-top: 0px;
+}
+footer div {
+  height: 65px;
+}
+h1 {
+  text-align: center;
+  color: #2AA5A0;
+  font-family: Apple Chancery, cursive;
+  font-weight: bold;
+  font-size: 45px;
+}
+.nav {
+  display: inline-block;
+  color: #0c638b;
+  text-decoration: none;
+  background-color: wheat;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-family: Chalkduster, fantasy;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  font-size: 30px
+}
+.fullnav {
+  display: inline-block;
+  color: #0c638b;
+  text-decoration: none;
+  background-color: wheat;
+  width: 49.89%;
+  height: 60px;
+  line-height: 60px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-family: Chalkduster, fantasy;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  font-size: 30px
+}
+#mainbg {
+  text-align: center;
+  color: rgb(168, 151, 120);
+  font-family: Chalkduster, fantasy;
+  font-size: 27px;
+  letter-spacing: 2px;
+  background-color: wheat;
+  height: 600px;
+  line-height: 60px;
+  margin: 150px 0px 0px 0px;
+}
+main p {
+  font-family: Chalkduster, fantasy;
+  font-size: 27px;
+  letter-spacing: 1.5px;
+  margin: 0px 400px 0px 400px;
+  color: rgb(75, 68, 54);
+}
+main p b {
+  color: #2AA5A0;
+  font-family: Apple Chancery, cursive;
+  font-size: 35px;
+}
+
+
+/* общий код для сравнений*/
+
+.txtgen {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 65px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+li b {
+  color: rgb(18, 148, 40);
+  font-family: DejaVu Sans Mono, monospace;
+}
+#backgr div {
+  display: inline-block;
+}
+.h1 {
+  color: wheat;
+}
+ul {
+  display: block;
+  color: #2AA5A0;
+  list-style: square inside none;
+  text-align: center;
+  font-weight: 1000;
+  font-family: Andale Mono, monospace;
+  font-size: 25px;
+}
+li {
+  padding: 40px;
+}
+#specif {
+  text-decoration: none;
+}
+
+
+/* код для CsDota.html */
+
+
+#dotagr {
+  width: 50%;
+  height: 800px;
+  padding: 0px;
+  background-image: url('../img/dotagr.jpeg');
+  margin-bottom: 100px;
+}
+#csgr {
+  width: 50%;
+  height: 800px;
+  float: right;
+  padding: 0px;
+  background-image: url('../img/csgr.webp');
+  background-size: cover;
+  margin-bottom: 100px;
+}
+#dota {
+  margin-left: 330px;
+  translate: 0px 121px;
+  font-size: 40px;
+  display: inline-block;
+  letter-spacing: 1.5px;
+}
+#cs {
+  margin-left: 1340px;
+  font-size: 40px;
+  display: inline-block;
+  letter-spacing: 1.5px;
+}
+#txtdota {
+  color: red;
+  translate: -150px 0px;
+  
+}
+#txtcs {
+  color: blue;
+  translate: -130px -34px;
+}
+
+
+/* код для other.html */
+
+
+#othmain div {
+  background-color: wheat;
+  height: 600px;
+  text-align: center;
+  margin: 150px 0px 150px 0px;
+}
+#othmain a {
+  text-decoration: none;
+  color: #0c638b;
+  font-size: 30px;
+  display: block;
+}
+#othmain img {
+  width: 48%;
+  height: 125px;
+  padding: 13px 7px 4px 7px;
+}
+#othmain b {
+  translate: 0px -55px;
+  display: inline-block;
+}
+
+
+/* код для FortPubg.html */
+
+
+#fortgr {
+  width: 50%;
+  height: 800px;
+  padding: 0px;
+  background-image: url('../img/fortgr.webp');
+  margin-bottom: 100px;
+  background-size: cover;
+}
+#pubggr {
+  width: 50%;
+  height: 800px;
+  float: right;
+  padding: 0px;
+  background-image: url('../img/pubggr.webp');
+  background-size: cover;
+  margin-bottom: 100px;
+}
+#fort {
+  margin-left: 330px;
+  translate: 0px 121px;
+  font-size: 40px;
+  display: inline-block;
+  letter-spacing: 1.5px;
+}
+#pubg {
+  margin-left: 1340px;
+  font-size: 40px;
+  display: inline-block;
+  letter-spacing: 1.5px;
+}
+#txtfort {
+  color: blue;
+  translate: 50px 0px;
+}
+#txtpubg {
+  color: red;
+  translate: -170px -34px;
+}
+
+
+/* код для DotaLoL.html */
+
+
+#lolgr {
+  width: 50%;
+  height: 800px;
+  float: right;
+  padding: 0px;
+  background-image: url('../img/lolgr.webp');
+  background-size: cover;
+  margin-bottom: 100px;
+}
+#lol {
+  margin-left: 1340px;
+  font-size: 40px;
+  display: inline-block;
+  letter-spacing: 1.5px;
+}
+#txtlol {
+  color: blue;
+  translate: -130px -34px;
+}
+
+
+/* код для CsValik.html */
+
+#csgr2 {
+  width: 50%;
+  height: 800px;
+  padding: 0px;
+  background-image: url('../img/csgr.webp');
+  margin-bottom: 100px;
+  background-size: cover;
+}
+#valikgr {
+  width: 50%;
+  height: 800px;
+  float: right;
+  padding: 0px;
+  background-image: url('../img/valikgr.webp');
+  margin-bottom: 100px;
+  background-size: cover;
+}
+#cs2 {
+  margin-left: 330px;
+  translate: 0px 121px;
+  font-size: 40px;
+  display: inline-block;
+  letter-spacing: 1.5px;
+}
+#valik {
+  margin-left: 1340px;
+  font-size: 40px;
+  display: inline-block;
+  letter-spacing: 1.5px;
+}
+#txtcs2 {
+  color: blue;
+  translate: -60px 0px;
+}
+#txtvalik {
+  color: red;
+  translate: -25px -34px;
+}
+
